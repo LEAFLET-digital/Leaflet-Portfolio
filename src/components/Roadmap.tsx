@@ -74,7 +74,7 @@ export const Roadmap = () => {
       </div>
 
       <div className="absolute bottom-0 right-8 text-xs text-gray-600">
-        leaflet.digital
+        leaflet.ai
       </div>
     </section>
   )

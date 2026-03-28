@@ -28,7 +28,7 @@ export const Security = () => {
               100<span className="text-leaflet-cyan">%</span>
             </div>
             <div className="text-3xl font-semibold mb-8">On-Device Privacy</div>
-            
+
             <div className="flex items-center gap-4 text-leaflet-cyan">
               <Shield className="w-12 h-12" />
               <Lock className="w-12 h-12" />
@@ -44,15 +44,15 @@ export const Security = () => {
             <div>
               <h3 className="text-2xl font-bold mb-4">Privacy By Design</h3>
               <p className="text-gray-400 text-lg leading-relaxed">
-                Your chat data, local notes, and system prompts are stored locally 
+                Your chat data, local notes, and system prompts are stored locally
                 in an encrypted edge database.
               </p>
             </div>
 
             <div>
               <p className="text-gray-400 text-lg leading-relaxed">
-                The cloud is strictly a dumb relay—used exclusively for routing 
-                encrypted messages and syncing public posts. Zero data mining. 
+                The cloud is strictly a dumb relay—used exclusively for routing
+                encrypted messages and syncing public posts. Zero data mining.
                 Zero server-side AI processing.
               </p>
             </div>
@@ -82,7 +82,7 @@ export const Security = () => {
       </div>
 
       <div className="absolute bottom-0 right-8 text-xs text-gray-600">
-        leaflet.digital
+        leaflet.ai
       </div>
     </section>
   )

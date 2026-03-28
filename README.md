@@ -138,5 +138,5 @@ This is a portfolio project. Feel free to fork and customize for your own use.
 
 ---
 
-Built with ❤️ for Leaflet.Digital
+Built with ❤️ for leaflet.ai
 # Leaflet-Portfolio

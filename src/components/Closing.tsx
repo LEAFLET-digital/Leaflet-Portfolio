@@ -7,8 +7,8 @@ export const Closing = () => {
   return (
     <section ref={ref} className="py-32 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-cyan-900/10 to-transparent" />
-      
-      <div 
+
+      <div
         className="absolute inset-0 opacity-20"
         style={{
           backgroundImage: 'url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920&h=1080&fit=crop)',
@@ -16,7 +16,7 @@ export const Closing = () => {
           backgroundPosition: 'center',
         }}
       />
-      
+
       <div className="absolute inset-0 bg-gradient-to-b from-leaflet-dark/80 via-leaflet-dark/60 to-leaflet-dark/80" />
 
       <div className="container mx-auto px-6 relative z-10">
@@ -56,7 +56,7 @@ export const Closing = () => {
       </div>
 
       <div className="absolute bottom-8 right-8 text-xs text-gray-600">
-        leaflet.digital
+        leaflet.ai
       </div>
     </section>
   )

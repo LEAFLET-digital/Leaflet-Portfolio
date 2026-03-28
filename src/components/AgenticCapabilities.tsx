@@ -45,8 +45,8 @@ export const AgenticCapabilities = () => {
             >
               <div className="aspect-video bg-gradient-to-br from-blue-900/40 to-cyan-900/20 flex items-center justify-center overflow-hidden">
                 {capability.image ? (
-                  <img 
-                    src={capability.image} 
+                  <img
+                    src={capability.image}
                     alt={capability.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
@@ -67,7 +67,7 @@ export const AgenticCapabilities = () => {
       </div>
 
       <div className="absolute bottom-0 right-8 text-xs text-gray-600">
-        leaflet.digital
+        leaflet.ai
       </div>
     </section>
   )

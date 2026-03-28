@@ -38,7 +38,7 @@ export const TechnicalViability = () => {
           transition={{ delay: 0.2, duration: 0.8 }}
           className="text-xl text-gray-300 mb-16 max-w-3xl"
         >
-          Modern flagship phones are AI powerhouses, making complex local-first 
+          Modern flagship phones are AI powerhouses, making complex local-first
           architectures possible today.
         </motion.p>
 
@@ -69,7 +69,7 @@ export const TechnicalViability = () => {
             className="relative"
           >
             <div className="aspect-video rounded-2xl border-2 border-leaflet-cyan/30 overflow-hidden bg-gradient-to-br from-blue-900/30 to-cyan-900/20">
-              <img 
+              <img
                 src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=600&fit=crop"
                 alt="Circuit board with AI processing"
                 className="w-full h-full object-cover"
@@ -81,7 +81,7 @@ export const TechnicalViability = () => {
       </div>
 
       <div className="absolute bottom-0 right-8 text-xs text-gray-600">
-        leaflet.digital
+        leaflet.ai
       </div>
     </section>
   )

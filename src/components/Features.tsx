@@ -49,7 +49,7 @@ export const Features = () => {
               </div>
 
               <h3 className="text-2xl font-bold mb-4">{feature.title}</h3>
-              
+
               <p className="text-gray-400 leading-relaxed">
                 {feature.description}
               </p>
@@ -59,7 +59,7 @@ export const Features = () => {
       </div>
 
       <div className="absolute bottom-0 right-8 text-xs text-gray-600">
-        leaflet.digital
+        leaflet.ai
       </div>
     </section>
   )

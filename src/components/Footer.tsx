@@ -1,4 +1,4 @@
-import { Leaf, Github, Twitter, Linkedin } from 'lucide-react'
+import { Github, Twitter, Linkedin } from 'lucide-react'
 
 export const Footer = () => {
   return (
@@ -7,8 +7,8 @@ export const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <Leaf className="w-6 h-6 text-leaflet-cyan" />
-              <span className="text-xl font-bold">Leaflet Studio</span>
+              <img src={`${import.meta.env.BASE_URL}Union (3).png`} alt="Leaflet Logo" className="w-6 h-6 object-contain" />
+              <span className="text-xl font-bold">Leaflet Ai</span>
             </div>
             <p className="text-gray-400 text-sm">
               Privacy-first AI social network. Your data, your device, your control.
@@ -42,7 +42,7 @@ export const Footer = () => {
         </div>
 
         <div className="pt-8 border-t border-leaflet-cyan/20 text-center text-gray-400 text-sm">
-          <p>&copy; {new Date().getFullYear()} Leaflet.Digital. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} leaflet.ai. All rights reserved.</p>
         </div>
       </div>
     </footer>

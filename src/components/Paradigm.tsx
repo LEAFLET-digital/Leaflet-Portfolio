@@ -66,7 +66,7 @@ export const Paradigm = () => {
           >
             <div className="aspect-square rounded-2xl bg-gradient-to-br from-blue-900/30 to-cyan-900/30 backdrop-blur-sm border border-leaflet-cyan/20 overflow-hidden">
               <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZGVmcz48cGF0dGVybiBpZD0iZ3JpZCIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9uVXNlIj48cGF0aCBkPSJNIDQwIDAgTCAwIDAgMCA0MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJyZ2JhKDAsIDIxNywgMjU1LCAwLjEpIiBzdHJva2Utd2lkdGg9IjEiLz48L3BhdHRlcm4+PC9kZWZzPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JpZCkiLz48L3N2Zz4=')] opacity-40" />
-              
+
               <div className="relative h-full flex items-center justify-center p-12">
                 <div className="text-center">
                   <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-br from-leaflet-cyan/20 to-blue-500/20 flex items-center justify-center animate-float">
@@ -85,7 +85,7 @@ export const Paradigm = () => {
       </div>
 
       <div className="absolute bottom-0 right-8 text-xs text-gray-600">
-        leaflet.digital
+        leaflet.ai
       </div>
     </section>
   )

@@ -1,13 +1,12 @@
 import { motion } from 'framer-motion'
-import { Leaf } from 'lucide-react'
 
 export const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-cyan-500/10 via-transparent to-transparent" />
-      
+
       <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-leaflet-cyan to-transparent" />
-      
+
       <div className="container mx-auto px-6 relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -21,9 +20,9 @@ export const Hero = () => {
             transition={{ delay: 0.2, duration: 0.6 }}
             className="flex items-center justify-center gap-2 mb-8"
           >
-            <Leaf className="w-6 h-6 text-leaflet-cyan" />
+            <img src={`${import.meta.env.BASE_URL}Union (3).png`} alt="Leaflet Logo" className="w-6 h-6 object-contain" />
             <span className="text-gray-400 uppercase tracking-widest text-sm font-medium">
-              Leaflet.Digital Presents
+              Leaflet.AI Presents
             </span>
           </motion.div>
 

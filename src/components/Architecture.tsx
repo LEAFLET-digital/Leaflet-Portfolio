@@ -34,7 +34,7 @@ export const Architecture = () => {
             </div>
 
             <p className="text-gray-300 mb-6 leading-relaxed">
-              The brain of the operation. Runs a quantized Small LLM (e.g., Llama 2-8B) 
+              The brain of the operation. Runs a quantized Small LLM (e.g., Llama 2-8B)
               directly on the client device.
             </p>
 
@@ -74,7 +74,7 @@ export const Architecture = () => {
             </div>
 
             <p className="text-gray-300 mb-6 leading-relaxed">
-              A lightweight, dumb relay backend written in Go/Rust. Contains absolutely 
+              A lightweight, dumb relay backend written in Go/Rust. Contains absolutely
               zero processing logic.
             </p>
 
@@ -101,7 +101,7 @@ export const Architecture = () => {
       </div>
 
       <div className="absolute bottom-0 right-8 text-xs text-gray-600">
-        leaflet.digital
+        leaflet.ai
       </div>
     </section>
   )

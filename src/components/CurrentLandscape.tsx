@@ -14,11 +14,11 @@ export const CurrentLandscape = () => {
           className="text-center max-w-4xl mx-auto"
         >
           <div className="w-16 h-1 bg-leaflet-cyan mx-auto mb-8" />
-          
+
           <h2 className="text-5xl md:text-6xl font-bold mb-8">
             The Current Landscape
           </h2>
-          
+
           <p className="text-xl md:text-2xl text-gray-400 leading-relaxed">
             App fatigue, cluttered interfaces, and an absolute loss of
             personal data privacy.
@@ -27,7 +27,7 @@ export const CurrentLandscape = () => {
       </div>
 
       <div className="absolute bottom-0 right-8 text-xs text-gray-600">
-        leaflet.digital
+        leaflet.ai
       </div>
     </section>
   )

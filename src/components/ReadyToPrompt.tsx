@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion'
-import { Leaf } from 'lucide-react'
 import { useInView } from '../hooks/useInView'
 
 export const ReadyToPrompt = () => {
@@ -40,9 +39,9 @@ export const ReadyToPrompt = () => {
             transition={{ delay: 0.6, duration: 0.8 }}
             className="flex items-center justify-center gap-3 text-leaflet-cyan"
           >
-            <Leaf className="w-6 h-6" />
+            <img src={`${import.meta.env.BASE_URL}Union (3).png`} alt="Leaflet Logo" className="w-6 h-6 object-contain" />
             <span className="text-lg font-semibold uppercase tracking-wider">
-              LEAFLET.DIGITAL • LIVE DEMO READY
+              leaflet.ai • LIVE DEMO COMING SOON
             </span>
           </motion.div>
 
